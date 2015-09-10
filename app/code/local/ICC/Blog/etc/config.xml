@@ -36,12 +36,12 @@
     </adminhtml> 
     <global>
         <resources>
-            <ICC_blog_setup>
+            <icc_blog_setup>
                 <setup>
                     <module>ICC_Blog</module>
                     <class>Mage_Core_Model_Resource_Setup</class>
                 </setup>
-            </ICC_blog_setup>
+            </icc_blog_setup>
         </resources>
         <models>
             <blog>
