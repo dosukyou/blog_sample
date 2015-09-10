@@ -1,0 +1,60 @@
+<?php $curryCat = $this->getActiveCategory() ?>
+<?php $popular = $this->getPopularPost() ?>
+
+<?php $popular->setOrder('created_at', 'desc'); ?>
+
+<?php $popular->setPageSize(5); ?>
+<?php if (count($popular) > 0): ?>
+<?php //echo $this->getSkinUrl(); ?>
+<div class="blog-popular cf full-site">
+	<div class="start post">
+		<a href="/blog/category/view/popular-post">
+			Popular Posts
+		</a>
+	</div>
+
+	<?php $p = 1; foreach ($popular as $post): ?>
+	<div class="post <?php if ($p == count($popular)) echo 'last' ?>">
+		<a href="/blog/entry/view/<?php echo $post->getUrlKey() ?>">
+			<div class="overlay hide">
+				<p class="post-name"><?php echo $post->getTitle(); ?>
+			</div>
+			<img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).$post->getThumbnail(); ?>" alt="<?php echo $post->getName() ?>" width="140" />
+		</a>
+	</div>
+	<?php $p++; ?>
+	<?php endforeach ?>
+</div>
+<?php endif ?>
+
+
+<div class="blog-header">
+
+	<h1><a href="/blog"><strong>Blog</strong></a></h1>
+
+</div>
+
+
+<?php $cats = $this->getCategories(); ?>
+<div class="blog-navigation full-site cf">
+<?php $i = 1; foreach ($cats as $kitty): ?>
+	<div class="category <?php if($i == count($cats)) echo 'last' ?>">
+		<a href="/blog/category/view/<?php echo $kitty->getData('url_key');?>"><?php echo $kitty->getName(); ?></a>
+
+	</div>
+	<?php $i++; ?>
+<?php endforeach ?>
+</div>
+
+
+<div class="mini-blog-nav inc-mobile hide cf">
+	<div class="select-wrapper">
+			<select onchange="setLocation(this.value)">
+				<option value=""> select a category </option>
+			<?php $i = 1; foreach ($cats as $kitty): ?>
+				<option value="/blog/category/view/<?php echo $kitty->getData('url_key');?>" <?php if ($curryCat == $kitty->getData('url_key')) echo 'selected' ?>><?php echo $kitty->getName(); ?></option>
+			<?php $i++; ?>
+			<?php endforeach ?>
+		</select>
+	</div>
+</div>

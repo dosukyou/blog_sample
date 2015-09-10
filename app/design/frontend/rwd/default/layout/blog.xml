@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+    <blog_index_index>
+	    <reference name="root">
+			<action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
+		<reference name="content">
+            <block type="core/template" name="blog.template" template="blog/blog-layout.phtml">
+                <block type="blog/navigation" name="blog.nav" template="blog/navigation.phtml" />
+                <block type="blog/list" name="blog.content" template="blog/list.phtml" />
+                <block type="blog/ads" name="blog.sidebar" template="blog/adspace.phtml" />
+            </block>
+        </reference>
+    </blog_index_index>
+
+    <blog_index_search>
+	    <reference name="root">
+			<action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>	
+        <reference name="content">
+            <block type="core/template" name="blog.template" template="blog/blog-layout.phtml">
+                <block type="blog/navigation" name="blog.nav" template="blog/navigation.phtml" />
+                <block type="blog/list" name="blog.content" template="blog/list.phtml" />
+                <block type="blog/ads" name="blog.sidebar" template="blog/adspace.phtml" />
+            </block>
+        </reference>
+    </blog_index_search>
+
+    <blog_category_view>
+	    <reference name="root">
+			<action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>	
+        <reference name="content">
+            <block type="core/template" name="blog.template" template="blog/blog-layout.phtml">
+                <block type="blog/navigation" name="blog.nav" template="blog/navigation.phtml" />
+                <block type="blog/list" name="blog.content" template="blog/list.phtml" />
+                <block type="blog/ads" name="blog.sidebar" template="blog/adspace.phtml" />
+            </block>
+        </reference>        
+    </blog_category_view>
+
+    <blog_entry_view>
+	    <reference name="root">
+			<action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>	
+        <reference name="content">
+            <block type="core/template" name="blog.template" template="blog/blog-layout.phtml">
+                <block type="blog/navigation" name="blog.nav" template="blog/navigation.phtml" />
+                <block type="blog/view" name="blog.content" template="blog/view.phtml" />
+                <block type="blog/ads" name="blog.sidebar" template="blog/adspace.phtml" />
+            </block>
+        </reference>
+    </blog_entry_view>
+
+</layout>

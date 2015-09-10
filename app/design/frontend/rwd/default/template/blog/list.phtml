@@ -1,0 +1,62 @@
+<?php 
+$sitename = "";
+$blog = $this->getEntries()->setOrder('created_at', 'desc'); ?>
+<?php if (count($blog) > 0): ?>
+	<?php $i = 1; $set = 1; foreach ($blog as $entry): ?>
+	<?php if ($i%4 == 0) $set++; ?>
+		<div class="entry <?php if ($i > 3) echo 'hide' ?> set-<?php echo $set ?>">
+			<?php if ($entry->getImage() != ''): ?>
+			<div class="blog-image">
+				<a href="/blog/entry/view/<?php echo $entry->getData('url_key') ?>">
+					<img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).$entry->getImage(); ?>" alt="" />
+				</a>
+			</div>
+			<?php endif ?>
+			<h1 class="title">
+				<a href="/blog/entry/view/<?php echo $entry->getData('url_key') ?>"><?php echo $entry->getTitle(); ?></a>
+			</h1>
+			<?php $stamp = strtotime($entry->getData('created_at')) ?>
+			<h5 class="date"><?php echo date('m/d/Y', $stamp); ?></h5>
+
+			<div class="blog-copy">
+				<?php echo Mage::helper('blog')->truncateCharacters($entry->getData('content'), 360, '/blog/entry/view/'.$entry->getData('url_key')) ?>
+			</div>
+		</div>
+
+		<?php if ($i == 2): ?>
+			<div class="entry instagram cf">
+				<a href="http://instagram.com/<?php echo $sitename; ?>" target="_blank">
+					<img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'/blog/title-instagram.jpg' ?>" alt="on Instagram" />
+					<?php $ads = Mage::getModel('blog/ads')->load(1) ?>
+					<img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).$ads->getData('instagram_banner') ?>" class="insta-banner" ?>
+				</a>
+			</div>
+		<?php endif ?>
+
+		<?php $i++; ?>
+		<?php if ($i > 36) break; ?>
+	<?php endforeach; ?> 
+
+	<?php if ($set > 1): ?>
+		<div class="show-more"> More </div>
+	<?php endif ?>
+	
+<?php else: ?>
+	<p class="empty-category">There are no articles under this category.</p>
+<?php endif ?>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	var cnter = 2;
+	$('.show-more').click(function() {
+		$('.set-'+cnter).fadeIn(300);
+		$('.set-'+cnter).removeClass("hide");
+		cnter++;
+
+		if ($('.set-'+cnter).length < 1) {
+			$(this).fadeOut();
+		}
+	});
+});
+</script>

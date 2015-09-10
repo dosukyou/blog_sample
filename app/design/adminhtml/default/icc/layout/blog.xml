@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+    <blog_admin_data_index>
+        <reference name="content">
+            <block type="blog/admin_data" name="icc_blog"></block>
+        </reference>
+    </blog_admin_data_index>
+    <blog_admin_data_new>
+        <update handle="blog_admin_data_edit" />
+    </blog_admin_data_new>
+    <blog_admin_data_edit>
+        <update handle="editor"/>
+        <reference name="content">
+            <block type="blog/admin_data_edit" name="admin_data_edit"></block>
+        </reference>
+    </blog_admin_data_edit>
+
+
+    <blog_admin_categories_index>
+        <reference name="content">
+            <block type="blog/admin_categories" name="icc_blog_categories"></block>
+        </reference>
+    </blog_admin_categories_index>
+    <blog_admin_categories_new>
+        <update handle="blog_admin_categories_edit" />
+    </blog_admin_categories_new>
+    <blog_admin_categories_edit>
+        <update handle="editor"/>
+        <reference name="content">
+            <block type="blog/admin_categories_edit" name="admin_categories_edit"></block>
+        </reference>
+    </blog_admin_categories_edit>
+    
+    <blog_admin_ads_new>
+        <update handle="blog_admin_ads_edit" />
+    </blog_admin_ads_new>
+    <blog_admin_ads_edit>
+        <update handle="editor"/>
+        <reference name="content">
+            <block type="blog/admin_ads_edit" name="admin_ads_edit"></block>
+        </reference>
+    </blog_admin_ads_edit>
+    
+</layout>

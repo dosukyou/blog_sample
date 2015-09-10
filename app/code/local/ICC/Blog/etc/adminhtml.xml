@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<config>
+	<menu>
+		<cms>
+			<children>
+				<blog translate="title" module="blog">
+					<title>Blog</title>
+					<sort_order>400</sort_order>
+					<children>
+	                    <data>
+	                        <title>Blog Entries</title>
+							<sort_order>1</sort_order>
+							<action>blog/admin_data</action>
+	                    </data>
+	                    <categories>
+	                        <title>Categories</title>
+							<sort_order>2</sort_order>
+							<action>blog/admin_categories</action>
+	                    </categories>
+						<ads>
+	                        <title>Ad Space</title>
+							<sort_order>3</sort_order>
+							<action>blog/admin_ads/edit/entry_id/1</action>
+	                    </ads>
+					</children>
+				</blog>
+			</children>
+		</cms>
+	</menu>
+	<acl>
+		<resources>
+			<all>
+				<title>Allow Everything</title>
+			</all>
+			<admin>
+				<children>
+					<cms>
+						<children>
+							<blog translate="title" module="blog">
+								<title>Blog</title>
+								<children>
+				                    <data>
+				                        <title>Blog Entries</title>
+										<action>blog/admin_data</action>
+				                    </data>
+				                    <categories>
+				                        <title>Categories</title>
+										<action>blog/admin_categories</action>
+				                    </categories>
+									<ads>
+				                        <title>Ad Space</title>
+										<action>blog/admin_ads/edit/entry_id/1</action>
+				                    </ads>
+								</children>
+							</blog>
+						</children>
+					</cms>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>
