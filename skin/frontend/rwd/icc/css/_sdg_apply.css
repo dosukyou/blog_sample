@@ -1,0 +1,360 @@
+.locations-tab {
+  padding-right: 30px;
+}
+.locations-tab a {
+  float: right;
+  zoom: 1;
+  text-transform: lowercase;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  background: #e5e6e6;
+  color: #797979;
+  border: 1px solid #e5e6e6;
+  display: block;
+  border-bottom: 1px solid #bebebe;
+}
+.locations-tab a.active {
+  color: #eb1c74;
+  border: 1px solid #bebebe;
+  border-bottom: #fff;
+  background: #fff;
+  margin-top: 1px;
+  display: block;
+}
+
+.cms-home .parallax-heroes div.bottom-out .how-to-apply {
+  margin: 80px auto 0 !important;
+}
+.cms-home .how-to-apply {
+  margin-top: 80px ;
+}
+
+.how-to-apply {
+  width: 1112px;
+  margin: 0 -66px;
+  position: relative;
+  padding-bottom: 18px;
+  background: url('../images/bottom-shadow1126.png') no-repeat bottom center;
+  margin-bottom: 20px;
+}
+.how-to-apply .layover {
+  width: 460px;
+  margin-left: 100px;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 200;
+}
+.how-to-apply .layover h1 {
+  font-size: 75px;
+  color: #eb1c74;
+  text-transform: lowercase;
+  font-weight:300;
+}
+.how-to-apply .layover h3 {
+  color: #a1a1a5;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.how-to-apply .layover .nav-wrapper {
+  border-top: 1px solid #dedddd;
+  border-bottom: 1px solid #dedddd;
+  padding: 10px 0 9px;
+  text-align: center;
+}
+.how-to-apply .layover .nav-wrapper .step-nav,
+.how-to-apply .layover .nav-wrapper .step-nav_bottom {
+  height: 20px;
+  margin: 0 auto;
+}
+.how-to-apply .layover .nav-wrapper a {
+  width: 19px;
+  height: 17px;
+  background: url('../images/pagination-pager.png') no-repeat;
+  color: #fff;
+  float: left;
+  margin-right: 31px;
+  text-align: center;
+  padding-top: 3px;
+}
+.how-to-apply .layover .nav-wrapper a.activeSlide {
+  background-position: -41px 0px;
+}
+.how-to-apply .cycle-wrapper,
+.how-to-apply .step-cycle {
+  width: 1112px;
+  height: 437px;
+}
+.how-to-apply div.apply-steps {
+  height: 437px;
+  position: relative;
+  width: 1112px;
+}
+.how-to-apply div.apply-steps .step-information {
+  width: 470px;
+  text-align: left;
+  position: absolute;
+  left: 100px;
+  top: 210px;
+}
+.how-to-apply div.apply-steps .step-information .step-icon {
+  width: 100px;
+  height: 100px;
+  float: left;
+  zoom: 1;
+}
+.how-to-apply div.apply-steps .step-information .step-details {
+  float: left;
+  zoom: 1;
+  width: 290px;
+  padding-left: 10px;
+}
+.how-to-apply div.apply-steps .step-information .step-details h4 {
+  color: #f27997;
+  font-size: 24px;
+  font-weight: 100;
+}
+.how-to-apply div.apply-steps .step-information .step-details p.desc {
+  padding-right: 20px;
+  margin-top: 5px;
+  font-weight: 200;
+  font-size: 14px;
+}
+.how-to-apply .learn-more {
+  position: absolute;
+  bottom: 60px;
+  left: 100px;
+  z-index: 200;
+}
+.how-to-apply .learn-more a {
+  color: #eb1c74;
+  font-size: 18px;
+  text-transform: lowercase;
+  padding-right: 25px;
+  background: url('../images/big-go-arrow.png') no-repeat right center;
+}
+
+/* How to Apply 
+ * ------------------------------------------ */
+.apply-body {
+  margin-top: -1px;
+  padding-top: 10px;
+  background: url('../images/fading-border.jpg') no-repeat top center;
+}
+.apply-body .col1 {
+  width: 500px;
+  float: left;
+  zoom: 1;
+}
+.apply-body .col2 {
+  width: 436px;
+  float: right;
+  zoom: 1;
+  border-left: 1px dashed #bebebe;
+  padding-left: 5px;
+}
+.apply-body .how-to-apply {
+  margin: 0 !important;
+}
+.apply-body .hta-faq h4 {
+  font-size: 28px;
+  color: #eb1c74;
+  border-bottom: 1px dashed #bebebe;
+  padding: 15px 25px;
+}
+.apply-body .hta-faq .faq-copy {
+  padding: 15px 25px;
+}
+.apply-body .hta-faq h5 {
+  color: #f27997;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-right: 40px;
+}
+.apply-body .hta-faq p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.apply-body .video-desc {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.apply-body .video-desc h4 {
+  font-size: 28px;
+  color: #eb1c74;
+  margin-bottom: 20px;
+  border-bottom: none;
+}
+.apply-body .arrow-tips {
+  position: absolute;
+  top: 27px;
+  right: 110px;
+  width: 256px;
+  background: url('../images/quicktip-arrow.png') no-repeat 0px 21px;
+}
+.apply-body .arrow-tips .quicktipy {
+  float: right;
+  zoom: 1;
+  height: 148px;
+  width: 148px;
+  background: url('../images/quicktip-bubble.png') no-repeat;
+  text-align: center;
+}
+.apply-body .arrow-tips .quicktipy .inner-tipy {
+  margin: 20px 10px 0;
+}
+.apply-body .arrow-tips .quicktipy h6 {
+  font-size: 18px;
+  color: #f27997;
+  margin-bottom: 5px;
+}
+.apply-body .arrow-tips .quicktipy p {
+  font-size: 14px;
+  color: #a1a1a5;
+}
+.apply-body .hta-tab-content {
+  width: 980px;
+  margin: 0 auto;
+}
+
+
+
+
+/* How to Apply tabs
+ * _________________________________*/
+.hta-view .how-to-apply {margin: 0px auto 30px !important;}
+.hta-view .how-to-apply .layover h1 {font-weight: 300;}
+.hta-view .how-to-apply .layover h3 {font-weight: 100; font-size: 31px !important; margin-left: 2px; color: #797979;}
+.hta-view .how-to-apply .layover {margin-left:35px !important;}
+.hta-view .how-to-apply .layover .nav-wrapper { margin-right: 20px; margin-left: 2px;}
+
+.hta-view .how-to-apply div.apply-steps .step-information { top: 223px; left: 65px !important;}
+
+.hta-view .how-to-apply div.apply-steps .step-information .step-details { padding-left: 16px !important;}
+.hta-view .how-to-apply div.apply-steps .step-information .step-details h4 {font-weight: 100; color: #f27997 !important;}
+.hta-view .how-to-apply div.apply-steps .step-information .step-details p.desc {font-weight: 200; font-size: 14px !important;}
+.hta-view .apply-body {width: 1312px; margin-left: -164px;}
+.hta-view .apply-body .arrow-tips .quicktipy p {font-weight: 100;}
+
+
+/* Extra arrows 
+ * __________________________*/
+
+/*-----nail colors/designs-----*/
+.hta-view .how-to-apply div.apply-steps.hta-1-step-1 .arrow-tips { width: 292px; background: url('../images/hta-1-step-1.png') no-repeat 35px 19px !important;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-1-step-3 .arrow-tips {height: 66px;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-1-step-4 .arrow-tips { width: 447px; background:url('../images/arrow-step-4.png') no-repeat 33px 14px !important;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-1-step-5 .arrow-tips { width: 308px; background: url('../images/hta-1-step-5.png') no-repeat 33px 14px !important;}
+
+/*------French Manicure-------*/
+.hta-view .how-to-apply div.apply-steps.hta-3-step-1 .arrow-tips {height: 73px; width: 253px;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-3-step-2 .arrow-tips { width: 406px; right: 96px; background: url('../images/hta-3-step-2.png') no-repeat 33px 17px !important;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-3-step-3 .arrow-tips { width: 241px; background:url('../images/arrow-fh-step3.png') no-repeat 31px 19px !important; right: 135px;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-3-step-6 .arrow-tips { width: 311px; top: 32px; right: 103px; background: url('../images/hta-3-step-6.png') no-repeat 36px 25px !important;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-3-step-7 .arrow-tips { width: 249px; top: 52px; background:url('../images/arrow-fh-step3.png') no-repeat 36px 16px !important;}
+
+
+/*-------Pedicure-------------*/
+.hta-view .how-to-apply div.apply-steps.hta-4-step-1 .arrow-tips {width: 277px; right: 96px; background: url('../images/hta-4-step-1.png') no-repeat 33px 17px !important;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-4-step-2 .arrow-tips { top: 200px; width: 249px; background:url('../images/arrow-p-step2.png') no-repeat 2px 19px !important;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-4-step-2 .arrow-tips .quicktipy { margin-top: 70px !important;}
+
+
+
+/*----------ready set gel!------*/
+.hta-view .how-to-apply div.apply-steps.hta-5-step-1 .arrow-tips { top:53px; right:38px; width: 249px; background:url('../images/arrow-fh-step3.png') no-repeat 43px 18px !important;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-5-step-2 .arrow-tips { top: 83px; width: 369px; background:url('../images/arrow-rsg-step2.png') no-repeat 2px 93px !important;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-5-step-2 .arrow-tips .quicktipy { margin-top: 70px !important;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-5-step-3 .arrow-tips { width: 306px; background:url('../images/arrow-step-40.png') no-repeat 24px 31px !important; right: 66px;}
+.hta-view .how-to-apply div.apply-steps.hide.hta-5-step-3 .step-information .step-details { width: 345px!important;}
+
+/* IE Support 
+ * ------------------------------------------ */
+
+
+.how-to-apply div.apply-steps .step-information .step-details h4 { color: #f27997; font-weight: 100}
+.how-to-apply div.apply-steps .step-information .step-details p.desc { font-weight: 200; font-size: 14px}
+.how-to-apply .layover h1 {font-weight: 300;}
+.how-to-apply .layover h3 {font-weight: 100;}
+
+
+/* FireFox */
+@-moz-document url-prefix() {
+	.how-to-apply .layover .nav-wrapper a {
+		height: 19px; padding-top: 2px;}
+  }
+
+
+/* Parallax Update 07/05/2013 
+ * ------------------------------------------ */
+.cms-home .how-to-apply {margin: 80px auto 20px!important;}
+
+
+ /* How to Apply
+ *   ---------------------------------------- */
+  .apply-body { background: 0;}
+
+  .apply-body .col1,
+  .apply-body .col2 { float: none; width: auto;}
+
+  .apply-body .col2 { padding: 0; border: none;}
+
+  /* .how-to-apply .cycle-wrapper, .how-to-apply .step-cycle,
+ *   .how-to-apply div.apply-steps { width: 100%; margin: 0; height: auto; }
+ *     .hta-view .how-to-apply .layover { position: static; width: auto; display: none; }
+ *
+ *       .how-to-apply div.apply-steps { background: none !important}
+ *
+ *         .how-to-apply div.apply-steps .step-information { width: auto; position: static; }
+ *           .how-to-apply div.apply-steps .step-information .step-details { width: 65%;}
+ *             .how-to-apply div.apply-steps .step-information .step-details p.desc { padding-right: 0}
+ *
+ *               .how-to-apply .step-cycle { margin: 0 auto; } */ 
+
+  .apply-body .hta-faq h4,
+  .apply-body .hta-faq .faq-copy { padding-left: 0;}
+
+  .apply-body .hta-faq .faq-copy { padding-top: 0; }
+
+  .hta-view .apply-body,
+  .apply-body .hta-tab-content { width: auto; margin: 0;}
+  .apply-body .hta-faq .faq-copy { padding-right: 0; }
+
+  .apply-body .video-media { border-bottom: 1px dashed #bebebe; padding-bottom: 20px; }
+  .apply-body .hta-faq h4 { border-bottom: 0; padding-right: 0}
+
+  .how-to-apply-mobile { padding-bottom: 20px; padding-top: 10px; max-width: 400px; margin: 10px auto; padding-bottom: 20px; min-height: 110px;}
+
+
+ /* How to Apply Navigation 
+ *   ---------------------------------------- */
+  .tab-1 .top-col .tab-3,
+  .tab-1 .top-col .tab-4,
+  .tab-1 .top-col .tab-5,
+  .tab-1 .bottom-col .tab-1 { display: none; }
+
+  .tab-3 .bottom-col .tab-3,
+  .tab-3 .top-col .tab-4,
+  .tab-3 .top-col .tab-5,
+  .tab-3 .bottom-col .tab-1 { display: none; }
+
+  .tab-4 .bottom-col .tab-3,
+  .tab-4 .bottom-col .tab-4,
+  .tab-4 .top-col .tab-5,
+  .tab-4 .bottom-col .tab-1 { display: none; }
+
+  .tab-5 .bottom-col { display: none; }
+
+  div.apply .bottom-col { border-top: 1px solid #dedddd;}
+
+
+
+  /* Home 
+ *   ---------------------------------------- */
+ .cms-home .how-to-apply { display: none !important; }
+
+

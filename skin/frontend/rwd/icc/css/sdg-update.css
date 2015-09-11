@@ -1,0 +1,456 @@
+.grouped-products li .tipsy { z-index: 200; }
+.crosssell .item { float: left; zoom: 1; margin: 0 5px 15px; height: 240px;}
+.crosssell div.overlay-white { height: 240px; }
+.crosssell .item .price-box { text-align: center; float: none; margin: 0 auto;}
+.crosssell .item .price-box .old-price,
+.crosssell .item .price-box .special-price { display: inline; float: none; }
+.crosssell .item .price-box .special-price { color: #eb1c74;}
+.crosssell .item .price-box .old-price { margin-top: 0;}
+
+
+div.parallax-heroes #slide-3 .static { z-index: 102; }
+
+
+/* Cart Update 08/28/2013
+------------------------------------------ */
+.checkout-options .iglobal-btn { display: block; background: #eb1c74; color: #fff; padding: 5px 20px 4px; text-transform: lowercase; border: 0; font-size: 18px; margin-right: 15px; cursor: pointer;}
+
+
+/* iGlobal 09/04/2013 
+------------------------------------------ */
+.igModalized { width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); position: absolute; top: 0; left: 0; z-index:9998; font-family: 12px; }
+#igSplashElement {top: 32px; left: 0; -webkit-box-shadow: 3px 3px 6px rgba(50, 50, 50, 0.22); -moz-box-shadow: 3px 3px 6px rgba(50, 50, 50, 0.22); box-shadow: 3px 3px 6px rgba(50, 50, 50, 0.22); background-color: white; padding: 15px; z-index: 9999; margin: 0; position: relative; width: 200px; }
+#igSplashElement .change-location {font-size: 18px; color: #eb1c74; border-bottom: 1px dashed #bebebe;  padding-bottom: 5px; text-align: left; margin-bottom: 12px; display: block;}
+#igSplashElement div.select-wrapper {width: 90%; overflow: hidden;}
+.igModalHeader { width: 100%;  overflow: auto; }
+.igModalBody { width: 100%; clear: both; display: block; overflow: auto; }
+.igModalFooter { display: none;}
+.igWelcomeCountryMessage { color: #797979; font-size: 14px; text-align: center; float: right; width: 100%; }
+.igAboveFlag { text-align: center; }
+.igCountryFlagName { font-size: 32px; color: #eb1c74; text-transform: uppercase; margin-left: 1em; text-align: center; display: block; margin: 0; }
+.igWelcomeFlag { margin-right: 0.3em; margin-bottom: -14px; }
+.igWelcomeFlagHeader { height: 21px; width: auto; cursor: pointer; padding: 0 0px; }
+.igUnderFlag { clear: left; display: block; font-size: 12px; margin-top: -10px; }
+.igFeature { width: 25%; padding: 0 4%; float: left; text-align: center; }
+.igWelcomeFeatureImages img { max-width: 120px; margin: 1em 0 1.5em; }
+.igWelcomeMessage { clear: both; color: #797979; text-align: center; font-size: 12px; padding: 1.5em 0; }
+.igWelcomeCTAButton { text-align: center; }
+.igWelcomeCTAButton button { background-color: #eb1c74; color: white; padding: 5px 10px; border: none; text-transform: uppercase; text-align:center; width: 235px; margin: 1em auto 0; font-size: 20px; cursor: pointer; }
+
+.modalLogo { margin: 35px 0 0 60px; width: 225px; width: 150px\0/;}
+.igCountryFlagName { line-height: 1.7em; }
+.igUnderFlag { margin-top: 5px; }
+.igUnderFlag div.select-wrapper { width: 195px; margin: 10px auto 15px; overflow: hidden; }
+.igUnderFlag div.select-wrapper select { width: 120% !important;}
+
+
+.igModalBody .available-shipping { font-size: 12px; text-align: left; }
+.igModalBody .available-shipping h3 { font-size: 18px; color: #eb1c74; margin: 10px 0; }
+.igModalBody .available-shipping ul { list-style: circle !important; }
+.igModalBody .available-shipping ul li { list-style: circle !important; margin-left: 5px; font-size: 14px; margin-bottom: 3px; }
+.igWelcomeMessage { text-align: left; font-size: 14px; }
+.igWelcomeCTAButton button { text-transform: lowercase; }
+
+#igWelcomeMat .faux-btn { background: #eb1c74; padding: 6px 10px 4px; font-size: 20px; color: #fff; margin: 0 auto; display: block; width: 215px; text-align: center; text-transform: lowercase; margin-top: 20px; }
+
+.igModalBody p a { color: #eb1c74;}
+
+
+
+.order-success h2.sub-title { margin: 20px 0; font-size: 18px; color: #eb1c74;}
+
+
+/* Parallax Update 09/10/2013 
+------------------------------------------ */
+div.parallax-heroes .parallax-navigation { top: 375px;}
+#slide-5 .static { margin-top: 660px; }
+#slide-5 .static button { border: 1px solid white; background: transparent; color: white; padding: 5px; text-transform: lowercase; font-size: 14px; margin-left: 95px;}
+#slide-2 { background-position: 50% 0 !important}
+
+.tout-wrapper .feat-applique, .feat-applique .mask, .tout-wrapper .feat-applique div.product-reel, .feat-applique li.item, .feat-applique .overlay { width: 314px;}
+
+.tout-wrapper .feat-applique { margin-right: 2px;}
+
+.feat-applique .box-content { overflow: hidden;}
+
+
+/* Success Social Media 09/19/2013 crystal@sdg.la
+------------------------------------------ */
+.success-wrap {margin-top: 30px;}
+.success-wrap h1 {color: #eb1c74; font-size: 19px;}
+.success-share { margin-bottom: 10px; }
+.success-share ul.share-buttons li {float: left; margin: 0 17px 0 0;}
+.success-share ul.share-buttons li.tweet {margin-right: -2px;}
+.success-share ul.share-buttons {margin: 15px 0px 0px 0px;}
+
+
+
+/* Banner Free Shipping Cart 09/24/2013
+------------------------------------------ */
+.spend-more { padding: 14px 20px 9px 100px; background: url('../images/banner-ship.png') no-repeat 5px; border-bottom: 1px solid #dedede; margin-bottom: 10px; background-size: 8%;} 
+.spend-more h2 { font-size: 24px; color: #f27997; text-transform: lowercase;  }
+.spend-more h2 strong { color: #eb1c74; }
+.spend-more .lite-pink { color: #f27997; text-transform: lowercase;  }
+
+
+
+/* New label 09/30/2013
+------------------------------------------ */
+.collections a { padding-right: 10px; }
+.collections .new-label { background: #eb1c74; color: #fff; padding: 2px 5px; vertical-align: text-bottom; display: inline-block; margin-top: -5px; }
+
+
+/* Parallax Update 09/30/2013 
+------------------------------------------ */
+#slide-6 .frame-1 { background-position: center 120px !important; display: none; }
+#slide-6 .static { margin-top: 535px; margin-left: 135px;} 
+#slide-6 .static button { color: #beea79; border: 1px solid #beea79; background: none; font-size: 18px; text-transform: lowercase; }
+
+#slide-6 .static-appliques { width: 560px; margin: 370px auto 0; text-align: center; z-index: 1; position: absolute; left: 50%; margin-left: -258px;}
+
+#slide-6 .static-appliques a { display: block; height: 116px; width: 115px;}
+
+#slide-6 .static-appliques .applique { float: left; zoom: 1; width: 24.9%; height: 100px; position: relative; }
+#slide-6 .static-appliques .applique img { position: static !important; }
+#slide-6 .static-appliques .applique .applique-name { text-align: center; color: #fff; text-transform: uppercase; margin-top: 18px; }
+#slide-6 .static-appliques .applique .glow { position: absolute; top: -9px; left: -1px;}
+#slide-6 .static-appliques .applique-2 .glow { left: 0px; top: -8px; }
+#slide-6 .static-appliques .glow-text { color: #beea79; text-transform: uppercase; font-size: 12px; margin: 45px 0 0 65px; text-align: left; }
+#slide-6 .static-appliques .applique-3 img { margin-top: -12px; margin-left: 10px; }
+
+
+/* GIFT CARD PRODUCT UPDATE  12/2013 */
+/*.grouped-products-wrapper p.availability, .grouped-products-wrapper .price-box {display: none;}*/
+ul.grouped-products .options-container-big {display: none;}
+.product-gift-cards  a.link-wishlist, .options-container-big p.required {display: none;}
+.options-container-big {text-align: right;}
+.options-container-big .price-qty input.qty {width: 25px; text-align: center; margin-bottom: 15px;}
+.options-container-big .price-qty label {text-transform: uppercase;}
+
+
+/* Gift Card Product 10/01/2013
+------------------------------------------ */
+.giftcard-form .availability { display: none; }
+.giftcard-form h2 { font-size: 24px; color: #eb1c74; margin-bottom: 15px; }
+.giftcard-amount-form p.notice { font-size: 11px; margin-top: 5px; text-transform: lowercase;}
+#giftcard_message { width: 98%; min-height: 150px; resize: none; border: 1px solid #ebebeb; padding: 8px 5px 5px 5px; -moz-box-shadow: inset 1px 1px 1px 1px #dedede; -webkit-box-shadow: inset 1px 1px 1px 1px #dedede; box-shadow: inset 1px 1px 1px 1px #dedede;}
+
+
+/* Gift Card Update 01/17/2014 */
+table#shopping-cart-table dl.item-options {font-size: 12px;}
+.giftcardaccount form#giftcard-form #giftcard_balance_lookup {margin-bottom: 20px;}
+
+
+
+
+/* Blog Updates 09/19/2013 // 10/03/2013
+------------------------------------------ */
+.blog-header { text-align: center; margin: 30px 0 15px; font-size: 50px; font-weight: 400; text-transform: lowercase; }
+.blog-header a { color: #eb1c74; }
+div.blog-content .entry .blog-image { margin-top: 0;}
+div.blog-content .entry { padding-top: 20px;}
+div.blog-content .entry:first-child  { padding-top: 0px; }
+
+div.blog-image img { width: 100%; }
+
+
+.blog-search { margin-bottom: 20px; }
+.blog-search label { font-size: 24px; text-transform: lowercase; font-weight: 500; color: #eb1c74; display: block; margin-bottom: 10px;}
+.blog-search input { width: 84%; padding: 5px 0 7px; text-indent: 5px; float: left; zoom: 1;}
+.blog-search button { width: 14%; float: right; zoom: 1; padding: 5px 0 7px; background: #eb1c74; border: 0; color: #fff; text-transform: lowercase; font-size: 15px; }
+
+
+/* Halloween CTA on products 10/09/2013 
+------------------------------------------ */
+.halloweeen-cta { margin-top: 15px;}
+.halloweeen-cta .black-button { background: #000; color: #fff; padding: 10px 15px; text-transform: lowercase; }
+
+.osco input[type="tel"] { width: 96%;}
+
+
+/* Gift Card */
+.giftcardaccount form#giftcard-form button {float: left!important; margin-left: -2px;}
+
+
+/* Parallax Update 11/21/2013 
+------------------------------------------ */
+#slide-7 { position: relative; }
+#slide-7 button { position: absolute; bottom: 313px; left: 53%; border: 1px solid #eb1c74; background: transparent; color: #eb1c74; padding: 8px 15px;  text-transform: lowercase; font-size: 16px; cursor: pointer; z-index: 100;}
+
+
+/* BLACK FRIDAY 
+------------------------------------------ */
+.header-container .mini-banner { background: #000; padding: 8px 0;}
+.header-container .mini-banner .banner-inner { padding: 0px 68px; width: 980px; margin: 0 auto;}
+.header-container .mini-banner h3 a { font-size: 22px; color: #eb1c74; letter-spacing: 5px; font-family: 'museo-sans-rounded', helvetica, arial; font-weight: 300; }
+.header-container .mini-banner h3 .white { color: #fff; }
+.header-container .mini-banner h3 .divide { padding: 0 30px; background: url('../images/mini-banner-divide.png') no-repeat center center; }
+.header-container .mini-banner h3 .lite-pink { color: #f27997; letter-spacing: 0px !important; font-weight: 300; padding: 0 22px 0 10px; background: url('../images/mini-banner-shop-arrow.png') no-repeat right 9px; }
+.header-container .mini-banner h3 .mobile { display: none; }
+
+/* Undo Me if you want no banner! */ 
+/* .catalog-product-view .main { margin-top: 43px !important;}
+div.main { margin: 130px auto 0 !important; }
+.catalog-category-view .page-title { margin-top: 132px !important;}
+.catalog-category-view .page .main { margin-top: 0 !important;} */ 
+
+
+
+/* Parallax Slide 8 */ 
+.parallax-heroes #slide-8 { width: 100% !important; margin: 0 auto; }
+.parallax-heroes #slide-8 img { width: 100%; position: static !important; }
+.parallax-heroes #slide-8 a { display: block; height: 100%; width: 100%; }
+
+
+
+/* Adjustments for iGlobal header */ 
+
+div.header-container .header div.site-options div.navs div.quick-access li { margin-right: 10px; }
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+
+	div.header-container .header div.site-options div.navs div.quick-access li { margin: 0 !important;}
+	
+	.header-container .mini-banner { width: 100%; }
+	.header-container .mini-banner .banner-inner { padding: 0 5px; }
+	.header-container .mini-banner h3 a { font-size: 14px; color: #eb1c74; letter-spacing: 3px; font-family: 'museo-sans-rounded', helvetica, arial; font-weight: 100; }
+
+	/* .header-container .mini-banner h3 .divide, .header-container .mini-banner h3 .lite-pink { display: none; } */ 
+	.header-container .mini-banner h3 .divide { padding: 0 0 !important;}
+	.header-container .mini-banner h3 .lite-pink { background-position: right 3px; padding-left: 2px; }
+	.header-container .mini-banner h3 .mobile { display: block; }
+	.header-container .mini-banner h3 .desktop { display: none; }
+
+	/* Undo Me if you want no banner! */ 
+	/* .catalog-category-view .page-title { margin-top: 112px !important;}*/ 
+}
+
+
+/* Cat wall Update for Second Images */
+.grouped-products li .tipsy .tipsy-img img#tipsyimg-1 {width: 200px;}
+.grouped-products li .tipsy .tipsy-img img#tipsyimg-2 {width: 200px;}
+
+/* Parallax Module 
+------------------------------------------ */
+.parallax-heroes .static-banner a { display: block; height: 100%; width: 100%; }
+
+
+@media only screen and (min-device-width: 10px) and (max-device-width: 767px) { 
+
+	/*  Update  ---------------------- */ 
+	li#igNest { padding-left: 8px; padding-top: 5px; padding-right: 8px;} 
+
+	div.header-container .header div.site-options div.navs div.site-nav { width: 70%;}
+	div.header-container .header div.site-options div.navs div.quick-access li a.trigger-bag { width: 35px; }
+
+	#igSplashElement { padding: 0 20px 10px; min-width: 400px; }
+	.igWelcomeCountryMessage { float: none; margin: 10px auto; width: 60%;}
+	.modalLogo { margin: 15px auto 0; display: block; }
+	#igWelcomeMat .faux-btn { margin-top: 10px; }
+
+
+	@-ms-viewport {
+    	width: 480px;
+  	}
+  	.header .logo {float: none; width: 160px; height: 55px; margin: 0 auto; background-size: 92%; display: inline-block; vertical-align: middle; text-align: center;}
+  	.header .logo.reg {background-position: 0px -96px;}
+  	.header .logo.salon {background-position: 0px -167px;}
+  	.header .logo.nail {background-position: 0px -247px;}
+  	.header nav {float: none; position: absolute; top: 0; width: 100%;}
+  	.header .trigger-nav { height: 55px; background-color: #fff; display: inline-block; vertical-align: middle; width: 55px; font-size: 0; text-align: center; border-right: 1px solid #fff; border-bottom: 1px solid #fff; z-index: 1; float: left;}
+  	.header .trigger-nav.active {border-right: 1px solid #ecebef;}
+  	.header .trigger-nav:before {content: ''; display: inline-block; height: 18px; margin-top: 19px; width: 18px; vertical-align: bottom; background-image: url("../images/new-sprite.png"); background-color: transparent; background-repeat: no-repeat; background-position: -1px -84px;}
+  	.header nav ul.navigation-links li.nav-line {float: none; margin: 0;}
+  	.header nav ul.navigation-links li.nav-line.active a.trigger-nav:before {display: none;}
+  	.header .drop-menu {margin-top: 20px; width: 100%; padding: 0;}
+  	.header nav ul.navigation-links {display: block!important;}
+  	.header .mobile-search { padding: 12px;}
+  	.header .mobile-search form button { text-indent: -9999px; background: url('../images/new-sprite.png') no-repeat; height: 19px; width: 28px; border: 0 !important; background-position: 0 -30px; float: right; cursor: pointer;}
+  	.mobile-search .form-search {border: 1px solid #bebebe;}
+  	.header .mobile-search .form-search label, .header .mobile-search  .form-search a {display: none!important; }
+  	.mobile-shop {padding: 10px 4px;}
+  	ul.mobile-shop li {text-align: left;}
+  	.mobile-search .form-search input { width: 88%; font-size: 14px; color: #a1a1a5; border: 0; background: 0; font-weight: 300; height: 21px; text-indent: 10px;}
+  	div.header-container div.header {padding: 0; text-align: center;}
+
+}
+
+/* Cart count */ 
+@media only screen and (min-device-width: 768px) { 
+	div.header-container .header div.site-options div.navs div.quick-access li a.triggers.trigger-bag { text-indent: 0; background: none; }
+}
+div.navs div.quick-access li a.triggers.trigger-bag { text-align: center; }
+div.navs div.quick-access li a.triggers.trigger-bag .mobile-inline { display: none; }
+div.navs div.quick-access li a.triggers.trigger-bag .bag-icon { position: relative; color: #fff; display: inline-block; margin-top: 5px;}
+div.navs div.quick-access li a.triggers.trigger-bag .bag-icon .bag-handle { background: url('../images/bag-handle.png') no-repeat; width: 8px; height: 5px; position: absolute; top: -5px; left: 50%; margin-left: -4px; }
+div.navs div.quick-access li a.triggers.trigger-bag .bag-icon .count { background: #797979; padding: 2px 5px; min-width: 6px; margin: 0 auto; text-align: center; font-size: 10px; display: inline-block; }
+div.navs div.quick-access li a.triggers.trigger-bag:hover .bag-icon .bag-handle { background: url('../images/bag-handle-hover.png') no-repeat; }
+div.navs div.quick-access li a.triggers.trigger-bag:hover .bag-icon .count { background: #f27997; }
+
+
+div.header-container .header div.site-options div.navs div.quick-access li a.triggers.trigger-account { background-position: -46px 0; }
+div.header-container .header div.site-options div.navs div.quick-access li a.triggers.trigger-account:hover, div.header-container .header div.site-options div.navs div.quick-access li a.triggers.trigger-account.active { 
+	background-position: -46px -64px;
+}
+
+@media only screen and (min-device-width: 10px) and (max-device-width: 767px) { 
+	a.triggers.trigger-bag .mobile-inline { display: inline !important; }
+	a.trigger-bag {display: inline-block; color: #eb1c74; width: 50px; text-align: center; float: right; padding: 15px 0;}
+	a.trigger-bag:before {content: ''; display: inline-block; height: 23px; width: 18px; vertical-align: bottom; background-image: url("../images/new-sprite.png"); background-color: transparent; background-repeat: no-repeat; background-position: -124px -1px;}
+
+}
+
+.grouped-products .trigger-tipsy .tags { position: absolute; bottom: 0; left: 0; padding: 3px; }
+.grouped-products .trigger-tipsy .tags .new { background: #eb1c74; color: #fff; padding: 2px 5px; font-size: 11px; display: inline-block; } 
+.grouped-products .trigger-tipsy .tags .sale { background: #f27997; color: #fff; padding: 2px 5px; margin-top: 5px; font-size: 11px; display: inline-block;  }
+
+/* Parallax 11 */ 
+#slide-11 { position: relative; }
+#slide-11 button.main-button { position: absolute; bottom: 300px; left: 57%; border: 1px solid #eb1c74; background: transparent; color: #eb1c74; padding: 8px 15px;  text-transform: lowercase; font-size: 16px; cursor: pointer; z-index: 100;}
+
+
+/* Locations page link update */
+.locations .online-international .intl-listing ul.col li small {display: block; margin-top: -7px; margin-bottom: -3px;}
+
+.products-grid .product-image {
+	margin-bottom:10px;
+}
+
+
+.category-products .item .custom-options { margin-top: 15px; width: 93%; }
+.category-products .item .custom-options label { padding-bottom: 5px; font-size: 13px; }
+.category-products .item .custom-options .select-wrapper{ width: 100%; margin-top: 5px; }
+.category-products .item #qty { text-align: center; width: 20px; padding: 3px}
+.category-products .item .product-name { padding-top: 5px; }
+
+/* Parallax 11 Easter */
+#slide-11 {}
+#slide-11 .static-easter { height: 206px; width: 546px; background: url('/media/parallax/slide-11/easter/background.png') no-repeat; position: absolute; bottom: 0px; right: 18%; }
+#slide-11 .static-easter .easter-inner { position: relative; height: 100%; }
+#slide-11 .static-easter .easter-button { border: 1px solid #67bbe9; background: transparent; color: #67bbe9; padding: 8px 15px;  text-transform: lowercase; font-size: 16px; cursor: pointer; z-index: 100; position: absolute; bottom: 9px; right: 130px; }
+#slide-11 .static-easter .new-sticker { height: 84px; width: 84px; background: url('/media/parallax/slide-11/easter/new.png') no-repeat; position: absolute; top: -25px; left: -25px; }
+#slide-11 .static-easter .eggies .egg { display: none; position: absolute; }
+#slide-11 .static-easter .eggies .egg-1 { width: 66px; height: 88px; background: url('/media/parallax/slide-11/easter/egg-1.png') no-repeat; top: 47px; left: 65px; }
+#slide-11 .static-easter .eggies .egg-2 { width: 70px; height: 93px; background: url('/media/parallax/slide-11/easter/egg-2.png') no-repeat; top: 76px; left: 26px; }
+#slide-11 .static-easter .eggies .egg-3 { width: 69px; height: 95px; background: url('/media/parallax/slide-11/easter/egg-3.png') no-repeat; top: 97px; left: 63px; }
+
+.alert-stock { margin: 20px 0 15px; }
+.alert-stock a { color: #eb1c74; }
+.social-wall .post a { display: block; height: 100%; }
+
+.crosssell h2 { font-size: 32px; margin-left: 16px; padding: 20px 10px;}
+.crosssell .item { width: 75px; height: 145	px; }
+.crosssell h3.product-name { padding: 10px 0; min-height: 29px; }
+.crosssell div.overlay-white { width: 75px; }
+.crosssell .faux-btn { font-size: 12px; padding: 5px 9px; margin-left: -5px; margin-top: 27px; margin-right: -5px; }
+
+.cart h2.product-name a { color: #a1a1a5; }
+.cart h2.product-name a:hover { color: #eb1c74; }
+
+
+/* special price update */
+.tipsy-content .price-box {
+	max-width: 200px;
+}
+
+.tipsy-content .price-box .old-price, .tipsy-content .price-box .special-price {
+	/*float: none;
+	display: inline-block;*/
+	margin-top: 0;
+}
+.tipsy-content .price-box .special-price {
+	float:right;
+	margin-right: 7px;
+}
+
+/* Cat wall FB Social Button Fix */
+.product-hero .product-blurb div.share-block .div-social.fb {
+	width: 76px!important; 
+	height:20px;
+
+}
+
+.product-hero .product-blurb div.share-block .div-social.fb iframe {
+	width: 76px!important;
+	height: 20px!important;
+}
+
+.alert-stock { margin: 20px 0 15px; }
+.alert-stock a { color: #eb1c74; }
+
+/* Parallax 11 */ 
+#slide-11 { position: relative; }
+#slide-11 button { position: absolute; bottom: 119px; left: 55%; border: 1px solid #eb1c74; background: transparent; color: #eb1c74; padding: 8px 15px;  text-transform: lowercase; font-size: 16px; cursor: pointer; z-index: 100;}
+
+.social-wall .post a { display: block; height: 100%; }
+
+.options-outofstock { margin-top: 25px; }
+.add-to-cart .link-stock-alert { display: inline; padding-right: 5px; }
+.add-to-cart .link-stock-alert a { background: transparent; border: 1px solid #eb1c74; color: #eb1c74; padding: 5px 25px 4px; display: inline; }
+
+/* Pro Nails Update */
+.catalog-product-view .main button {
+	border: 1px solid #eb1c74;
+	padding: 5px 0px!important;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	font: 12px 'museo-sans-rounded', helvetica, arial;
+	zoom: 1;
+	width: 108px;
+	background: #eb1c74;
+}
+
+
+@-moz-document url-prefix() {
+	.catalog-product-view .main button {
+		padding: 4px 0px!important;
+	}
+}
+
+.options-outofstock { margin-top: 25px; }
+.options-outofstock .pink {  color: #eb1c74;}
+.options-outofstock .availability { float: left; font-size: 12px; padding: 0 0 0 10px; border-left: 1px solid #dedede; margin-top: 2px; }
+.options-outofstock .availability .pink { text-transform: lowercase; }
+.options-outofstock .buttons { margin-top: 20px; }
+
+.add-to-cart .link-stock-alert { display: inline; padding-right: 5px; }
+.add-to-cart .link-stock-alert a { background: #eb1c74; border: 1px solid #eb1c74; color: #fff; padding: 5px 25px 4px; display: inline; }
+.product-hero .price-qty .price-box { min-width: 0; padding-right: 10px !important; }
+
+.link-stock-alert { display: inline; padding-right: 5px; }
+.link-stock-alert a { background: #eb1c74; border: 1px solid #eb1c74; color: #fff; padding: 5px 25px 4px; display: inline; }
+.options-outofstock .price-qty .price-box { min-width: 0; padding-right: 10px !important; }
+
+.tipsy-content .options-outofstock.availabilty-reviews .availabilty { width: 100%; }
+.tipsy-content .options-outofstock.availabilty-reviews .availabilty p { display: block; }
+.tipsy-content .add-to-box { clear: both; overflow: hidden; }
+.tipsy-content .add-to-box .options-outofstock { margin-top:15px;}
+.tipsy-content .alert-msg { color: #eb1c74; margin-top: 7px; }
+.tipsy-content .link-stock-alert { width: 48%; float: left; zoom: 1; margin: 6px 0 15px; }
+.tipsy-content .link-stock-alert a { padding: 5px 21px 4px; }
+
+
+/* Header Update */
+.third-promo-tout { float: right; padding-left: 20px; width: 330px;}
+.third-promo-tout .kitty {margin: -12px 20px 10px; width: 280px;}
+.third-promo-tout .kitty a {display: block; height: 82px; width: 280px; position: relative; border: none!important;}
+
+
+
+/* Grouped Products */
+.add-all-button {text-align: right; margin-top: 20px; padding: 0 10px;}
+.grouped-tip {margin: 10px; text-align: center;}
+
+/* Gift Card Product Update */
+.giftcard-add-wrapper .add-to-cart {text-align: right;}
+.giftcard-add-wrapper .add-to-cart .price-qty {margin: 15px 8px;}
+.giftcard-add-wrapper .add-to-cart .price-box {display: none;}
+.giftcard-add-wrapper .add-to-cart .price-qty label {padding: 0 10px; text-transform: uppercase;}
+.giftcard-add-wrapper .add-to-cart .price-qty input#qty {width: 25px; text-align: center; color: #a1a1a5;}
+.giftcard-add-wrapper .giftcard-amount-form.fieldset .input-box {width: 15%;}
+.giftcard-add-wrapper .giftcard-send-form.fieldset .fields .field.last {margin-left: 29px;}
+.giftcard-add-wrapper .add-to-cart .product-options {margin: 15px 8px;}
+.giftcard-add-wrapper .add-to-cart .product-options button.btn-cart {padding: 5px 10px!important;}
+.giftcard-add-wrapper .giftcard-send-form textarea#giftcard_message {min-height: 50px!important;}
